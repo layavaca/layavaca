@@ -13,13 +13,14 @@
   </head>
   <body>
     <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html"aria-current="page">Other page</a>
-      <a href="/nube.html"aria-current="page">Nubes</a>
-      
+      <ul id="menu">
+        <a href="/" aria-current="page">Home</a>
+        <a href="/page2.html" aria-current="page">Other page</a>
+        <a href="/nube.html" aria-current="page">Nubes</a>
+      </ul>
     </nav>
     <main>
-      <h1>Home page</h1>
+      <h1 id="titulo1">Home page</h1>
       <ul>
         <li>Elemento 1</li>
         <li>Elemento 2</li>
@@ -27,7 +28,30 @@
         <li>Elemento 4</li>
         <li>Elemento 5</li>
       </ul>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/HnMMGD91Jyw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/HnMMGD91Jyw"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
     </main>
+    <aside>
+      <h3>articulo relacionado</h3>
+      <button onclick="addlink">Agregar link</button>
+      <ul>
+        <li></li>
+        <li><a href="/" aria-current="page">Home</a></li>
+        <li><a href="/page2.html" aria-current="page">Other page</a></li>
+        <li><a href="/nube.html" aria-current="page">Nubes</a></li>
+      </ul>
+    </aside>
+    <ul class="lista">
+      <li>Elemento 1</li>
+      <li>Elemento 2</li>
+      <li>Elemento 3</li>
+    </ul>
   </body>
 </html>
