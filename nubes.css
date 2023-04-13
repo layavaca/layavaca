@@ -2,7 +2,7 @@
   position: relative;
   height: 450px;
   width: 100%;
-  background-color: #7EC0EE;
+  background-color: #7ec0ee;
   overflow: hidden;
 }
 
@@ -18,7 +18,7 @@
 
 .cloud:before,
 .cloud:after {
-  content: "";
+  content: '';
   position: absolute;
   height: 80px;
   width: 200px;
@@ -40,5 +40,19 @@
   }
   to {
     transform: translateX(100%);
+  }
+
+  #myDiv {
+    background-color: red;
+    animation: changeColor 5s ease;
+  }
+
+  @keyframes changeColor {
+    from {
+      background-color: red;
+    }
+    to {
+      background-color: blue;
+    }
   }
 }
